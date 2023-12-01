@@ -9,8 +9,6 @@ public class floor_up : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log('k');
-
         if (collision.CompareTag("Player")) // Проверяем, является ли столкнувшийся объект игроком
         {
             SceneManager.LoadScene(sceneToLoad); // Загружаем указанную сцену

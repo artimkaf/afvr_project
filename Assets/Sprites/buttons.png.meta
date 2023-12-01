@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e5df26a512ae46d49bab887bb6e6f730
+guid: 4b544d501f809c844a4cb4193a45d453
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: melisa_0
+      name: buttons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 26
+        x: 1
+        y: 75
+        width: 48
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 582900d8d2ba35144bc2c936228d31da
-      internalID: 1336842250
+      spriteID: 0ed50c3411c3a134aaa9c9dccd682c84
+      internalID: 704099831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melisa_1
+      name: buttons_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 0
-        width: 16
-        height: 26
+        x: 50
+        y: 75
+        width: 48
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7179a8ff3808a3478d4cf023e11d214
-      internalID: -2058293895
+      spriteID: c6758084040350d4c8a48a6b19621f0d
+      internalID: 1949915409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melisa_2
+      name: buttons_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 0
-        width: 13
-        height: 26
+        x: 1
+        y: 50
+        width: 48
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce10f19fcc0bde84fbdcd3b4ab00aa54
-      internalID: 339775161
+      spriteID: e8c272c5ac4015d4b91ace39adaa34a7
+      internalID: 2061604657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: melisa_3
+      name: buttons_3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 0
-        width: 13
-        height: 26
+        x: 50
+        y: 50
+        width: 48
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6b178d3942e52d41b5cb0e65520ec9d
-      internalID: -377302686
+      spriteID: c20ff3c4e79cd9347918949831709f2b
+      internalID: 1596466426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25df09fb0d905c418ff6969d2c696cb
+      internalID: -91166440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 25
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9fd1409355dc54f8d120088eea307c
+      internalID: 885073506
       vertices: []
       indices: 
       edges: []
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      melisa_0: 1336842250
-      melisa_1: -2058293895
-      melisa_2: 339775161
-      melisa_3: -377302686
+      buttons_0: 704099831
+      buttons_1: 1949915409
+      buttons_2: 2061604657
+      buttons_3: 1596466426
+      buttons_4: -91166440
+      buttons_5: 885073506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
