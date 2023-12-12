@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class movePlayer : MonoBehaviour
 {
+    public float speed;
     private Rigidbody2D rb;
-    public float speed = 0.5f;
-    private Vector2 moveVector;
+
+    public Animator animator;
+    private Vector2 direction;
 
     void Awake()
     {
@@ -15,8 +17,16 @@ public class movePlayer : MonoBehaviour
 
     void Update()
     {
-        moveVector.x = Input.GetAxis("Horizontal");
-        moveVector.y = Input.GetAxis("Vertical");
-        rb.MovePosition(rb.position + moveVector * speed * Time.deltaTime);
+        direction.x = Input.GetAxis("Horizontal");
+        direction.y = Input.GetAxis("Vertical");
+        
+        animator.SetFloat("Horizontal", direction.x);
+        animator.SetFloat("Vertical", direction.y);
+        animator.SetFloat("speed", direction.sqrMagnitude);
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
     }
 }

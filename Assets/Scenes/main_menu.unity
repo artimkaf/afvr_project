@@ -1151,6 +1151,7 @@ GameObject:
   - component: {fileID: 1543434078}
   - component: {fileID: 1543434081}
   - component: {fileID: 1543434080}
+  - component: {fileID: 1543434082}
   - component: {fileID: 1543434079}
   m_Layer: 5
   m_Name: "\u0441haracter button"
@@ -1197,7 +1198,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1222,16 +1223,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1111612939}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1543434082}
+        m_TargetAssemblyTypeName: char_change, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: OnClick()
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1543434080
@@ -1254,7 +1255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -91166440, guid: 4b544d501f809c844a4cb4193a45d453, type: 3}
+  m_Sprite: {fileID: 949505391, guid: 4b544d501f809c844a4cb4193a45d453, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1272,6 +1273,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543434077}
   m_CullTransparentMesh: 1
+--- !u!114 &1543434082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543434077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a6307423159bf4ab20aacabf12827e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteWhen0: {fileID: 2000934160, guid: 4b544d501f809c844a4cb4193a45d453, type: 3}
+  spriteWhen1: {fileID: -929592166, guid: 4b544d501f809c844a4cb4193a45d453, type: 3}
 --- !u!1 &1617101867
 GameObject:
   m_ObjectHideFlags: 0

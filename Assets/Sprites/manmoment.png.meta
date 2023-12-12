@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b544d501f809c844a4cb4193a45d453
+guid: 6dfcab2f3ecd6b845807dd765a2ea0e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: buttons_0
+      name: manmoment_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 76
-        width: 48
-        height: 24
+        x: 0
+        y: 64
+        width: 16
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ed50c3411c3a134aaa9c9dccd682c84
-      internalID: 704099831
+      spriteID: 4059b2271e69a8543aae8ba90eb97bf2
+      internalID: -25687126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_1
+      name: manmoment_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 76
-        width: 48
-        height: 24
+        x: 18
+        y: 64
+        width: 16
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6758084040350d4c8a48a6b19621f0d
-      internalID: 1949915409
+      spriteID: 7485534e67f7cd54d87d7bb6eb9f17da
+      internalID: 919586826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_2
+      name: manmoment_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 51
-        width: 48
-        height: 24
+        x: 36
+        y: 64
+        width: 13
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c272c5ac4015d4b91ace39adaa34a7
-      internalID: 2061604657
+      spriteID: b49829569e2e93646b24f5bc9a513b5f
+      internalID: 37317969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_3
+      name: manmoment_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 51
-        width: 48
-        height: 24
+        x: 51
+        y: 64
+        width: 13
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c20ff3c4e79cd9347918949831709f2b
-      internalID: 1596466426
+      spriteID: 327562493a00fd64a8f43fd602ad134c
+      internalID: -1010982490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_4
+      name: manmoment_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 26
-        width: 48
-        height: 24
+        x: 0
+        y: 32
+        width: 15
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f25df09fb0d905c418ff6969d2c696cb
-      internalID: -91166440
+      spriteID: 53e0eeb859d48c549a46241fdb14dfa3
+      internalID: 670541540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_5
+      name: manmoment_5
       rect:
         serializedVersion: 2
-        x: 50
-        y: 26
-        width: 48
-        height: 24
+        x: 19
+        y: 32
+        width: 14
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9fd1409355dc54f8d120088eea307c
-      internalID: 885073506
+      spriteID: f7e98333b07df1c47a7d814f254a0bae
+      internalID: -746679327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_6
+      name: manmoment_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 48
-        height: 24
+        x: 36
+        y: 32
+        width: 13
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ba38111aba19d0489220df9dfe3685b
-      internalID: 949505391
+      spriteID: b78305ada6f5c2c44963e8c90fd6c2ac
+      internalID: -1946055823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_7
+      name: manmoment_7
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1
-        width: 48
-        height: 24
+        x: 51
+        y: 32
+        width: 14
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e9864a2a0d54d84cbb7a76e8d9c0fb8
-      internalID: 2000934160
+      spriteID: e42e60f4f6f842b47b372cee1b383082
+      internalID: -849236997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: buttons_8
+      name: manmoment_8
       rect:
         serializedVersion: 2
-        x: 99
-        y: 1
-        width: 48
-        height: 24
+        x: 0
+        y: 0
+        width: 14
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02096d7dc7f070b488a92662ec7d37cd
-      internalID: -929592166
+      spriteID: 68b0d24fe4c902b4cb11bcafb1c6292d
+      internalID: -1419495913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manmoment_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca40089a405a5446a754a01d59a988f
+      internalID: 1475485021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manmoment_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513a28edcb1e8b94f900b024ee033eb4
+      internalID: 1925926064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manmoment_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb81b10ea44766f4d90d4b11a72e22d5
+      internalID: -1941042409
       vertices: []
       indices: 
       edges: []
@@ -309,15 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      buttons_0: 704099831
-      buttons_1: 1949915409
-      buttons_2: 2061604657
-      buttons_3: 1596466426
-      buttons_4: -91166440
-      buttons_5: 885073506
-      buttons_6: 949505391
-      buttons_7: 2000934160
-      buttons_8: -929592166
+      manmoment_0: -25687126
+      manmoment_1: 919586826
+      manmoment_10: 1925926064
+      manmoment_11: -1941042409
+      manmoment_2: 37317969
+      manmoment_3: -1010982490
+      manmoment_4: 670541540
+      manmoment_5: -746679327
+      manmoment_6: -1946055823
+      manmoment_7: -849236997
+      manmoment_8: -1419495913
+      manmoment_9: 1475485021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
