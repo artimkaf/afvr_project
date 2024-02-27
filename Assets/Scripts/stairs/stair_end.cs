@@ -22,7 +22,7 @@ public class stair_end : MonoBehaviour
     }
     void SceneUpdate()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(6);
         
     }
 }

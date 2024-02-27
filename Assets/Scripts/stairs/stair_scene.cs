@@ -12,9 +12,9 @@ public class stair_scene : MonoBehaviour
     public GameObject fade_pp;
     void Start()
     {
-        if (PlayerPrefs.GetInt("floor") > 2)
+        if (PlayerPrefs.GetInt("floor") > 5)
         {
-            PlayerPrefs.SetInt("floor", 2);
+            PlayerPrefs.SetInt("floor", 5);
         }
         if (PlayerPrefs.GetInt("floor") < 1)
         {
@@ -28,7 +28,7 @@ public class stair_scene : MonoBehaviour
             down_button.SetActive(false);
             // сменить бекграунд
         }
-        if (PlayerPrefs.GetInt("floor") == 2)
+        if (PlayerPrefs.GetInt("floor") == 5)
         {
             up_button.SetActive(false);
             // сменить бекграунд
@@ -59,7 +59,7 @@ public class stair_scene : MonoBehaviour
     }
     void SceneUpdate()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(6);
     }
     void SceneUpdate_pp()
     {
