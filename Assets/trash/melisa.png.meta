@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ffed9ab3c8161354ab11bbfb8135bece
+guid: e5df26a512ae46d49bab887bb6e6f730
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,17 +106,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: miroslav_0
+      name: melisa_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 30
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757dacbb41e47d843ad881c2856c32e2
-      internalID: 790011848
+      spriteID: 582900d8d2ba35144bc2c936228d31da
+      internalID: 1336842250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miroslav_1
+      name: melisa_1
       rect:
         serializedVersion: 2
         x: 18
         y: 0
         width: 16
-        height: 30
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f01c6f71a541846a28cfa48e03e710
-      internalID: -1279535781
+      spriteID: e7179a8ff3808a3478d4cf023e11d214
+      internalID: -2058293895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miroslav_2
+      name: melisa_2
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 0
         width: 13
-        height: 30
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e628fcfd5403e284a8532f7a7d41d5c0
-      internalID: -1535590450
+      spriteID: ce10f19fcc0bde84fbdcd3b4ab00aa54
+      internalID: 339775161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miroslav_3
+      name: melisa_3
       rect:
         serializedVersion: 2
-        x: 50
+        x: 51
         y: 0
         width: 13
-        height: 30
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31861cea339485548b9abe366fc03c3a
-      internalID: -2010393430
+      spriteID: f6b178d3942e52d41b5cb0e65520ec9d
+      internalID: -377302686
       vertices: []
       indices: 
       edges: []
@@ -204,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      miroslav_0: 790011848
-      miroslav_1: -1279535781
-      miroslav_2: -1535590450
-      miroslav_3: -2010393430
+      melisa_0: 1336842250
+      melisa_1: -2058293895
+      melisa_2: 339775161
+      melisa_3: -377302686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
